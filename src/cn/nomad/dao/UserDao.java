@@ -2,6 +2,7 @@ package cn.nomad.dao;
 
 import java.util.List;
 
+import cn.nomad.domain.Fence;
 import cn.nomad.domain.User;
 
 public interface UserDao {
@@ -14,7 +15,6 @@ public interface UserDao {
 
 	//查找是否有同名用户
 	boolean find(String username);
-
-	List getAll();
+	public List<User> getAll();
 
 }

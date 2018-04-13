@@ -1,8 +1,8 @@
 <c3p0-config>
   <default-config>
-    <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/map</property>
+    <property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/map?characterEncoding=utf-8</property>
     <property name="user">map</property>
-    <property name="password">gao123456</property>
+    <property name="password">****</property>
     <property name="driverClass">com.mysql.jdbc.Driver</property>
     <property name="checkoutTimeout">5000</property>
     <property name="initialPoolSize">10</property>
@@ -13,7 +13,7 @@
   <named-config name="oracle">
   	<property name="jdbcUrl">jdbc:mysql://127.0.0.1:3306/map</property>
     <property name="user">map</property>
-    <property name="password">gao123456</property>
+    <property name="password">****</property>
     <property name="driverClass">com.mysql.jdbc.Driver</property>
     <property name="checkoutTimeout">5000</property>
     <property name="initialPoolSize">10</property>

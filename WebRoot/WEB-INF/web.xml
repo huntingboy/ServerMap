@@ -11,14 +11,40 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>cn.nomad.web.controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
   
   <servlet>
-  	<servlet-name>UserServlet</servlet-name>
-  	<servlet-class>cn.nomad.web.controller.UserServlet</servlet-class>
+    <servlet-name>FriendServlet</servlet-name>
+    <servlet-class>cn.nomad.web.controller.FriendServlet</servlet-class>
   </servlet>
-  
   <servlet-mapping>
-  	<servlet-name>UserServlet</servlet-name>
-  	<url-pattern>/UserServlet</url-pattern>
+    <servlet-name>FriendServlet</servlet-name>
+    <url-pattern>/FriendServlet</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FenceServlet</servlet-name>
+    <servlet-class>cn.nomad.web.controller.FenceServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FenceServlet</servlet-name>
+    <url-pattern>/FenceServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>CheckinServlet</servlet-name>
+    <servlet-class>cn.nomad.web.controller.CheckinServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckinServlet</servlet-name>
+    <url-pattern>/CheckinServlet</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
